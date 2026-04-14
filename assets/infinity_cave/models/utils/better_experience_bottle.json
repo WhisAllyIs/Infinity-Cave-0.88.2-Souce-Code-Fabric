@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "infinity_cave:item/better_experience_bottle"
+    }
+  }

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "infinity_cave:item/thunder_harpoon_2d"
+    }
+  }

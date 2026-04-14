@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "infinity_cave:item/corrupted_pearl"
+    }
+  }
