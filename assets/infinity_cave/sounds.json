@@ -1,0 +1,58 @@
+{
+    "music_disc.oracion": {
+        "sounds": [
+            {
+                "name": "infinity_cave:oracion",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.twinleaf_town": {
+        "sounds": [
+            {
+                "name": "infinity_cave:twinleaf_town",
+                "stream": true
+            }
+        ]
+    },
+    "music_disc.battle_castle": {
+        "sounds": [
+            {
+                "name": "infinity_cave:battle_castle",
+                "stream": true
+            }
+        ]
+    },
+    "sound_effect.sneeze" : {
+        "sounds": [
+            {
+                "name": "infinity_cave:sneeze",
+                "stream": false
+            }
+        ]
+    },
+    "sound_effect.frog_boing" : {
+        "sounds": [
+            {
+                "name": "infinity_cave:frog_boing",
+                "stream": false
+            }
+        ]
+    },
+    "sound_effect.frog_croak" : {
+        "sounds": [
+            {
+                "name": "infinity_cave:frog_croak",
+                "stream": false
+            }
+        ]
+    },
+    "sound_effect.eating" : {
+        "sounds": [
+            {
+                "name": "infinity_cave:eating",
+                "stream": false
+            }
+        ]
+    }
+}
