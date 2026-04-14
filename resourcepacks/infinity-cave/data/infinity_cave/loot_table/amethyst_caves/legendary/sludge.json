@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "value": "infinity_cave:refs/legendary_gear"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "value": "infinity_cave:refs/amethyst/legendary"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 8,
+                "min": 4
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 1.5,
+                  "animation": "eat",
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:clear_all_effects"
+                    }
+                  ]
+                },
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 2,
+                  "can_always_eat": true
+                },
+                "minecraft:item_name": {
+                  "text": "Sludge Meat"
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:lore": [
+                  {
+                    "text": "Clears all effects on consumption ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "value": "infinity_cave:custom_items/amethyst_charge/empty",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "max_stack_size": 1,
+                      "!jukebox_playable": {},
+                      "consumable": {
+                        "consume_seconds": 0,
+                        "animation": "none",
+                        "has_consume_particles": false,
+                        "sound": "intentionally_empty"
+                      },
+                "minecraft:custom_data": {
+                  "infinity_cave": {
+                    "item": "amethyst_charge",
+                    "tier": 3,
+                    "cooldown": 3,
+                    "amethyst_charge": {
+                      "charged": true,
+                      "xp_amount": 500
+                    }
+                  }
+                },
+                "minecraft:item_model": "infinity_cave:amethyst_charge",
+
+                "use_cooldown": {
+                  "seconds": 3,
+                  "cooldown_group": "ic:amethyst_charger"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Amethyst Charge",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "⬤ 13 levels",
+                  "color": "green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
