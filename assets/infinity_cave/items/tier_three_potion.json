@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "infinity_cave:utils/tier_three_potion",
+    "tints": [
+      {
+        "type": "minecraft:potion",
+        "default": 14687012
+      }
+    ]
+  }
+}

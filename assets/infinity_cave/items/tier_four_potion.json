@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "infinity_cave:utils/tier_four_potion",
+    "tints": [
+      {
+        "type": "minecraft:potion",
+        "default": 14687012
+      }
+    ]
+  }
+}
