@@ -1,0 +1,1 @@
+execute as @a[tag=ic.check] run function infinity_cave:technical/return/check with entity @s
