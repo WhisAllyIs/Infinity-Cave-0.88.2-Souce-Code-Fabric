@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "infinity_cave.returnable": true
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "infinity_cave:technical/return/return"
+  }
+}
