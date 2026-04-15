@@ -1,1 +1,0 @@
-$data modify storage infinity_cave:write data merge from storage infinity_cave:database "$(UUID)"
