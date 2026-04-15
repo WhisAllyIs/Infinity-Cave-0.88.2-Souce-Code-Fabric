@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "terralith:setup",
+      "required": false
+    },
+    {
+      "id": "infinity_cave:init",
+      "required": true
+    }
+  ]
+}
