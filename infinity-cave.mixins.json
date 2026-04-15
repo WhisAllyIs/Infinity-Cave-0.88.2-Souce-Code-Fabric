@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.frozy.infinity_cave.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"NoiseChunkGeneratorMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

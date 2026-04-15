@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "infinity-cave",
+	"version": "0.88.2",
+	"name": "Infinity Cave",
+	"description": "Expands the y-level from -64 to -128 with an infinite cave system, mobs, weapons, armor and more!",
+	"authors": [
+		"Frozytime"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/infinity-cave",
+		"sources": "https://github.com/Frozeh/infinity-cave/"
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "assets/infinity-cave/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.frozy.infinity_cave.InfinityCave"
+		]
+	},
+	"mixins": [
+		"infinity-cave.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": ["1.21.11"],
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
